@@ -1,0 +1,21 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "untitled-ontology-4:Price" "untitled-ontology-4:No_acid" "untitled-ontology-4:Heavy" "untitled-ontology-4:Red" "untitled-ontology-4:Rating" "untitled-ontology-4:Body" "untitled-ontology-4:Normal" "untitled-ontology-4:Num_reviews" "untitled-ontology-4:TOP" "untitled-ontology-4:Medium" "untitled-ontology-4:Measurements" "untitled-ontology-4:Above_100" "untitled-ontology-4:Acidity" "untitled-ontology-4:Type" "untitled-ontology-4:Light" "untitled-ontology-4:High_acidity" "untitled-ontology-4:Less_of_equal_than_15" "untitled-ontology-4:Wine" ; /*classes style*/
+	"untitled-ontology-4:TOP" -> "untitled-ontology-4:Rating" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-4:Medium" -> "untitled-ontology-4:Body" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-4:Above_100" -> "untitled-ontology-4:Price" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-4:Num_reviews" -> "untitled-ontology-4:Measurements" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-4:Heavy" -> "untitled-ontology-4:Body" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-4:Body" -> "untitled-ontology-4:Measurements" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-4:Less_of_equal_than_15" -> "untitled-ontology-4:Price" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-4:Red" -> "untitled-ontology-4:Type" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-4:Price" -> "untitled-ontology-4:Measurements" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-4:Rating" -> "untitled-ontology-4:Measurements" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-4:High_acidity" -> "untitled-ontology-4:Acidity" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-4:Acidity" -> "untitled-ontology-4:Measurements" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-4:Normal" -> "untitled-ontology-4:Price" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-4:No_acid" -> "untitled-ontology-4:Wine" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-4:Light" -> "untitled-ontology-4:Body" [ label = "rdfs:subClassOf" ];
+
+}

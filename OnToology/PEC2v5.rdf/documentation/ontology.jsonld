@@ -1,0 +1,1033 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price"
+    }, {
+      "@id" : "_:genid3"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+    }, {
+      "@id" : "_:genid12"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#No_acid"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body"
+    }, {
+      "@id" : "_:genid16"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light"
+    }, {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Medium"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price"
+    }, {
+      "@id" : "_:genid25"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "_:genid26"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Above_100"
+    }, {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Normal"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body"
+    }, {
+      "@id" : "_:genid34"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "_:genid35"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy"
+    }, {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Medium"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Less_of_equal_than_15"
+    }, {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Normal"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body"
+    }, {
+      "@id" : "_:genid43"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "_:genid44"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy"
+    }, {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+    }, {
+      "@id" : "_:genid52"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acid"
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price"
+    }, {
+      "@id" : "_:genid56"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "_:genid57"
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Above_100"
+    }, {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Less_of_equal_than_15"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid71"
+    }, {
+      "@id" : "_:genid69"
+    }, {
+      "@id" : "_:genid65"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid73"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid65",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#w"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "3"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity"
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity"
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#High_acidity"
+  } ]
+}, {
+  "@id" : "_:genid74",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid82"
+    }, {
+      "@id" : "_:genid80"
+    }, {
+      "@id" : "_:genid76"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid84"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid76",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#w"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "3"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThan"
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody"
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body"
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light"
+  } ]
+}, {
+  "@id" : "_:genid85",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid93"
+    }, {
+      "@id" : "_:genid91"
+    }, {
+      "@id" : "_:genid87"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid95"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid87",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#w"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "4"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid91",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody"
+  } ]
+}, {
+  "@id" : "_:genid93",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body"
+  } ]
+}, {
+  "@id" : "_:genid95",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#authors" : [ {
+    "@value" : "Ricardo Arcega Aperte\nRoberto Acha Paz"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#name" : [ {
+    "@value" : "Mundo del vino - España"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Above_100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Precio superior a 100"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Less_of_equal_than_15"
+    }, {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Normal"
+    } ]
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Vino acido"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#No_acid"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Clase que modela la acidez del vino"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Clase que engloba los diferentes niveles del cuerpo del vino"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Clase que recoge los vino de mayor cuerpo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light"
+    }, {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Medium"
+    } ]
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#High_acidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Subclase que enbloba los vinos más acidos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Less_of_equal_than_15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Vino economico menor de 15"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Above_100"
+    }, {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Normal"
+    } ]
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Clase que identifica los vinso de menor cuerpo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy"
+    }, {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Medium"
+    } ]
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid32"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Mediciones o valores asociados a caracteristicas del vino"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Medium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy"
+    }, {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light"
+    } ]
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid41"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#No_acid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Vino no acido"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid50"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Normal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Above_100"
+    }, {
+      "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Less_of_equal_than_15"
+    } ]
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid54"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Num_reviews",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Numero de reviews sobre el vino"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Precio del vino"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Clase con las valoraciones del vino"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Red",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Vino Tinto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Coresponden con las Denominaciones de origen españolas"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName" : [ {
+    "@value" : "Rias Baixas"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://es.dbpedia.org/resource/R%C3%ADas_Baixas_(vino)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName" : [ {
+    "@value" : "Ribera del Duero"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://es.dbpedia.org/resource/Ribera_del_Duero_(vino)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://es.dbpedia.org/resource/Bierzo_(vino)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#TOP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Clase TOP vino mejor valorado"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Rating"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Tipos de vinos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_1"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_1"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasCapacity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "70"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName" : [ {
+    "@value" : "Martin Codax Espumoso"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "2022"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_2"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_2"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasCapacity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "70"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName" : [ {
+    "@value" : "Alma Atlántica Albariño"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2022"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_3"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_3"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasCapacity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "70"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName" : [ {
+    "@value" : "Cinco Islas"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2023"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_4"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_4"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasCapacity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "70"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName" : [ {
+    "@value" : "Cuesta de Las Liebres"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "2023"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_5"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_5"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasCapacity" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "70"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName" : [ {
+    "@value" : "La Faraona Bierzo"
+  } ],
+  "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "2023"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Calse vino"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Winery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Bodega encargada de producir el vino"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#acidityOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#bodyOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Todo vino tiene una acided declarada"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidityValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Todo vino tiene un cuerpo declarado"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBodyValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasCapacity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasMeasurements",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#measurementsOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#regionOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Type"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#typeOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasWinery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Winery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#wineryOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#measurementsOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#regionOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#typeOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#wineryOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Winery"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#authors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#lessThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "urn:swrl:var#o",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#w",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]

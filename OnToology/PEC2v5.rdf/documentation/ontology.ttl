@@ -1,0 +1,620 @@
+@prefix : <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#> .
+
+<http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4> rdf:type owl:Ontology ;
+                                                                          rdfs:authors """Ricardo Arcega Aperte
+Roberto Acha Paz""" ;
+                                                                          rdfs:name "Mundo del vino - España" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#authors
+rdfs:authors rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#name
+rdfs:name rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/2000/01/rdf-schema#sameAs
+rdfs:sameAs rdf:type owl:AnnotationProperty ;
+            rdfs:subPropertyOf rdfs:comment .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#acidityOf
+:acidityOf rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           owl:inverseOf :hasAcidity ;
+           rdfs:domain :Acidity ;
+           rdfs:range :Wine .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#bodyOf
+:bodyOf rdf:type owl:ObjectProperty ;
+        owl:inverseOf :hasBody ;
+        rdfs:domain :Body ;
+        rdfs:range :Wine .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidity
+:hasAcidity rdf:type owl:ObjectProperty ,
+                     owl:FunctionalProperty ;
+            rdfs:domain :Wine ;
+            rdfs:range :Acidity ;
+            rdfs:comment "Todo vino tiene una acided declarada" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBody
+:hasBody rdf:type owl:ObjectProperty ,
+                  owl:FunctionalProperty ;
+         rdfs:domain :Wine ;
+         rdfs:range :Body ;
+         rdfs:comment "Todo vino tiene un cuerpo declarado" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasMeasurements
+:hasMeasurements rdf:type owl:ObjectProperty ;
+                 owl:inverseOf :measurementsOf ;
+                 rdf:type owl:FunctionalProperty ;
+                 rdfs:domain :Wine ;
+                 rdfs:range :Measurements .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasRegion
+:hasRegion rdf:type owl:ObjectProperty ;
+           owl:inverseOf :regionOf ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:domain :Wine ;
+           rdfs:range :Region .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasType
+:hasType rdf:type owl:ObjectProperty ;
+         owl:inverseOf :typeOf ;
+         rdf:type owl:FunctionalProperty ;
+         rdfs:domain :Wine ;
+         rdfs:range :Type .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasWinery
+:hasWinery rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           owl:inverseOf :wineryOf ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:domain :Wine ;
+           rdfs:range :Winery .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#measurementsOf
+:measurementsOf rdf:type owl:ObjectProperty ;
+                rdfs:domain :Measurements ;
+                rdfs:range :Wine .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#regionOf
+:regionOf rdf:type owl:ObjectProperty ;
+          rdfs:domain :Region ;
+          rdfs:range :Wine .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#typeOf
+:typeOf rdf:type owl:ObjectProperty ;
+        rdfs:domain :Type ;
+        rdfs:range :Wine .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#wineryOf
+:wineryOf rdf:type owl:ObjectProperty ;
+          rdfs:domain :Winery ;
+          rdfs:range :Wine .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasAcidityValue
+:hasAcidityValue rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Acidity ;
+                 rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasBodyValue
+:hasBodyValue rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Body ;
+              rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasCapacity
+:hasCapacity rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Wine ;
+             rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasName
+:hasName rdf:type owl:DatatypeProperty ,
+                  owl:FunctionalProperty ;
+         rdfs:domain :Wine ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#hasYear
+:hasYear rdf:type owl:DatatypeProperty ,
+                  owl:FunctionalProperty ;
+         rdfs:domain :Wine ;
+         rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Above_100
+:Above_100 rdf:type owl:Class ;
+           owl:equivalentClass [ owl:intersectionOf ( :Price
+                                                      [ rdf:type owl:Class ;
+                                                        owl:complementOf [ rdf:type owl:Class ;
+                                                                           owl:unionOf ( :Less_of_equal_than_15
+                                                                                         :Normal
+                                                                                       )
+                                                                         ]
+                                                      ]
+                                                    ) ;
+                                 rdf:type owl:Class
+                               ] ;
+           rdfs:subClassOf :Price ;
+           owl:disjointUnionOf ( :Less_of_equal_than_15
+                                 :Normal
+                               ) ;
+           rdfs:comment "Precio superior a 100" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acid
+:Acid rdf:type owl:Class ;
+      owl:equivalentClass [ owl:intersectionOf ( :Wine
+                                                 [ rdf:type owl:Class ;
+                                                   owl:complementOf :No_acid
+                                                 ]
+                                               ) ;
+                            rdf:type owl:Class
+                          ] ;
+      owl:disjointWith :No_acid ;
+      rdfs:comment "Vino acido" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity
+:Acidity rdf:type owl:Class ;
+         rdfs:subClassOf :Measurements ;
+         rdfs:comment "Clase que modela la acidez del vino" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body
+:Body rdf:type owl:Class ;
+      rdfs:subClassOf :Measurements ;
+      rdfs:comment "Clase que engloba los diferentes niveles del cuerpo del vino" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Heavy
+:Heavy rdf:type owl:Class ;
+       owl:equivalentClass [ owl:intersectionOf ( :Body
+                                                  [ rdf:type owl:Class ;
+                                                    owl:complementOf [ rdf:type owl:Class ;
+                                                                       owl:unionOf ( :Light
+                                                                                     :Medium
+                                                                                   )
+                                                                     ]
+                                                  ]
+                                                ) ;
+                             rdf:type owl:Class
+                           ] ;
+       rdfs:subClassOf :Body ;
+       owl:disjointUnionOf ( :Light
+                             :Medium
+                           ) ;
+       rdfs:comment "Clase que recoge los vino de mayor cuerpo" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#High_acidity
+:High_acidity rdf:type owl:Class ;
+              rdfs:subClassOf :Acidity ;
+              rdfs:comment "Subclase que enbloba los vinos más acidos" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Less_of_equal_than_15
+:Less_of_equal_than_15 rdf:type owl:Class ;
+                       owl:equivalentClass [ owl:intersectionOf ( :Price
+                                                                  [ rdf:type owl:Class ;
+                                                                    owl:complementOf [ rdf:type owl:Class ;
+                                                                                       owl:unionOf ( :Above_100
+                                                                                                     :Normal
+                                                                                                   )
+                                                                                     ]
+                                                                  ]
+                                                                ) ;
+                                             rdf:type owl:Class
+                                           ] ;
+                       rdfs:subClassOf :Price ;
+                       owl:disjointUnionOf ( :Above_100
+                                             :Normal
+                                           ) ;
+                       rdfs:comment "Vino economico menor de 15" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Light
+:Light rdf:type owl:Class ;
+       owl:equivalentClass [ owl:intersectionOf ( :Body
+                                                  [ rdf:type owl:Class ;
+                                                    owl:complementOf [ rdf:type owl:Class ;
+                                                                       owl:unionOf ( :Heavy
+                                                                                     :Medium
+                                                                                   )
+                                                                     ]
+                                                  ]
+                                                ) ;
+                             rdf:type owl:Class
+                           ] ;
+       rdfs:subClassOf :Body ;
+       owl:disjointUnionOf ( :Heavy
+                             :Medium
+                           ) ;
+       rdfs:comment "Clase que identifica los vinso de menor cuerpo" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Measurements
+:Measurements rdf:type owl:Class ;
+              rdfs:comment "Mediciones o valores asociados a caracteristicas del vino" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Medium
+:Medium rdf:type owl:Class ;
+        owl:equivalentClass [ owl:intersectionOf ( :Body
+                                                   [ rdf:type owl:Class ;
+                                                     owl:complementOf [ rdf:type owl:Class ;
+                                                                        owl:unionOf ( :Heavy
+                                                                                      :Light
+                                                                                    )
+                                                                      ]
+                                                   ]
+                                                 ) ;
+                              rdf:type owl:Class
+                            ] ;
+        rdfs:subClassOf :Body ;
+        owl:disjointUnionOf ( :Heavy
+                              :Light
+                            ) .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#No_acid
+:No_acid rdf:type owl:Class ;
+         owl:equivalentClass [ owl:intersectionOf ( :Wine
+                                                    [ rdf:type owl:Class ;
+                                                      owl:complementOf :Acid
+                                                    ]
+                                                  ) ;
+                               rdf:type owl:Class
+                             ] ;
+         rdfs:subClassOf :Wine ;
+         rdfs:comment "Vino no acido" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Normal
+:Normal rdf:type owl:Class ;
+        owl:equivalentClass [ owl:intersectionOf ( :Price
+                                                   [ rdf:type owl:Class ;
+                                                     owl:complementOf [ rdf:type owl:Class ;
+                                                                        owl:unionOf ( :Above_100
+                                                                                      :Less_of_equal_than_15
+                                                                                    )
+                                                                      ]
+                                                   ]
+                                                 ) ;
+                              rdf:type owl:Class
+                            ] ;
+        rdfs:subClassOf :Price ;
+        owl:disjointUnionOf ( :Above_100
+                              :Less_of_equal_than_15
+                            ) .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Num_reviews
+:Num_reviews rdf:type owl:Class ;
+             rdfs:subClassOf :Measurements ;
+             rdfs:comment "Numero de reviews sobre el vino" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Price
+:Price rdf:type owl:Class ;
+       rdfs:subClassOf :Measurements ;
+       rdfs:comment "Precio del vino" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Rating
+:Rating rdf:type owl:Class ;
+        rdfs:subClassOf :Measurements ;
+        rdfs:comment "Clase con las valoraciones del vino" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Red
+:Red rdf:type owl:Class ;
+     rdfs:subClassOf :Type ;
+     rdfs:comment "Vino Tinto" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region
+:Region rdf:type owl:Class ;
+        rdfs:comment "Coresponden con las Denominaciones de origen españolas" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#TOP
+:TOP rdf:type owl:Class ;
+     rdfs:subClassOf :Rating ;
+     rdfs:comment "Clase TOP vino mejor valorado" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Type
+:Type rdf:type owl:Class ;
+      rdfs:comment "Tipos de vinos" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Wine
+:Wine rdf:type owl:Class ;
+      rdfs:comment "Calse vino" .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Winery
+:Winery rdf:type owl:Class ;
+        rdfs:comment "Bodega encargada de producir el vino" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_1
+:Acidity_1 rdf:type owl:NamedIndividual ,
+                    :Acidity .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_2
+:Acidity_2 rdf:type owl:NamedIndividual ,
+                    :Acidity .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_3
+:Acidity_3 rdf:type owl:NamedIndividual ,
+                    :Acidity .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_4
+:Acidity_4 rdf:type owl:NamedIndividual ,
+                    :Acidity .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Acidity_5
+:Acidity_5 rdf:type owl:NamedIndividual ,
+                    :Acidity .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_1
+:Body_1 rdf:type owl:NamedIndividual ,
+                 :Body .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_2
+:Body_2 rdf:type owl:NamedIndividual ,
+                 :Body .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_3
+:Body_3 rdf:type owl:NamedIndividual ,
+                 :Body .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_4
+:Body_4 rdf:type owl:NamedIndividual ,
+                 :Body .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Body_5
+:Body_5 rdf:type owl:NamedIndividual ,
+                 :Body .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_1
+:Region_1 rdf:type owl:NamedIndividual ,
+                   :Region ;
+          :hasName "Rias Baixas" ;
+          rdfs:sameAs "http://es.dbpedia.org/resource/R%C3%ADas_Baixas_(vino)"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_2
+:Region_2 rdf:type owl:NamedIndividual ,
+                   :Region ;
+          :hasName "Ribera del Duero" ;
+          rdfs:sameAs "http://es.dbpedia.org/resource/Ribera_del_Duero_(vino)"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Region_3
+:Region_3 rdf:type owl:NamedIndividual ,
+                   :Region ;
+          rdfs:sameAs "http://es.dbpedia.org/resource/Bierzo_(vino)"^^xsd:anyURI .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_1
+:Vino_1 rdf:type owl:NamedIndividual ,
+                 :Wine ;
+        :hasAcidity :Acidity_1 ;
+        :hasBody :Body_1 ;
+        :hasCapacity 70 ;
+        :hasName "Martin Codax Espumoso" ;
+        :hasYear 2022 .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_2
+:Vino_2 rdf:type owl:NamedIndividual ,
+                 :Wine ;
+        :hasAcidity :Acidity_2 ;
+        :hasBody :Body_2 ;
+        :hasCapacity 70 ;
+        :hasName "Alma Atlántica Albariño" ;
+        :hasYear 2022 .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_3
+:Vino_3 rdf:type owl:NamedIndividual ,
+                 :Wine ;
+        :hasAcidity :Acidity_3 ;
+        :hasBody :Body_3 ;
+        :hasCapacity 70 ;
+        :hasName "Cinco Islas" ;
+        :hasYear 2023 .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_4
+:Vino_4 rdf:type owl:NamedIndividual ,
+                 :Wine ;
+        :hasAcidity :Acidity_4 ;
+        :hasBody :Body_4 ;
+        :hasCapacity 70 ;
+        :hasName "Cuesta de Las Liebres" ;
+        :hasYear 2023 .
+
+
+###  http://www.semanticweb.org/machy/ontologies/2023/3/untitled-ontology-4#Vino_5
+:Vino_5 rdf:type owl:NamedIndividual ,
+                 :Wine ;
+        :hasAcidity :Acidity_5 ;
+        :hasBody :Body_5 ;
+        :hasCapacity 70 ;
+        :hasName "La Faraona Bierzo" ;
+        :hasYear 2023 .
+
+
+#################################################################
+#    Rules
+#################################################################
+
+<urn:swrl:var#o> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#w> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Acidity ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasAcidity ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <urn:swrl:var#w> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first 3 ;
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :High_acidity ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Body ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasBody ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <urn:swrl:var#w> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first 3 ;
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Light ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Body ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasBody ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <urn:swrl:var#w> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first 4 ;
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Heavy ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
